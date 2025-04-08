@@ -5,8 +5,8 @@ int main(void){
 
  char str[MAXSIZE]={0};
  int length =0;
- printf("enter the string");
- scanf("%s",str);
+ printf("enter the string \n");
+ scanf("%[^\n]s",str);
  length = strglen(str);
  printf("string length is = %d",length);
 }
